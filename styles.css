@@ -18,7 +18,7 @@ a:hover{
 .mainHeader{
     /* background-color: #c38e3c; */
     background-color: #808080;
-    padding: 1rem 5rem;
+    padding: 1rem 10rem;
     display: flex;
     align-items: center;
     width: 100%;
@@ -29,7 +29,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 1rem 10rem;
     background: url('images/agriculture.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -71,7 +71,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 8rem;
+    width: 6rem;
 }
 
 .mainHeader .links{
@@ -83,7 +83,7 @@ header {
     width: 100%;
     /* background-color: #2c8eec; */
     background-color: #92000a;
-    padding: 1rem 5rem;
+    padding: 1rem 10rem;
 }
 
 .header{
@@ -125,6 +125,12 @@ header {
     header {
       padding: 2.2rem 5rem;
     }
+    .mainHeader{
+      padding: 1rem 5rem ;
+  }
+  .clgDetailsContainer{
+      padding: 1rem 5rem ;
+  }
   }
   @media only screen and (max-width: 767px) {
     html {
